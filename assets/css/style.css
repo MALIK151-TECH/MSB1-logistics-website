@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#020b18;
+    color:white;
+}
+
+header{
+    height:80px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 8%;
+    background:#031426;
+    border-bottom:1px solid #dba62b;
+}
+
+.logo{
+    width:140px;
+}
+
+nav a{
+    color:white;
+    margin:20px;
+    text-decoration:none;
+}
+
+.hero{
+    min-height:85vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:5%;
+    background:
+    linear-gradient(#001122cc,#001122cc),
+    url('../images/truck.jpg');
+    background-size:cover;
+}
+
+.hero h1{
+    font-size:60px;
+}
+
+.hero span{
+    color:#e5ad32;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:15px 35px;
+    background:#e5ad32;
+    color:black;
+    border-radius:30px;
+}
+
+.stats{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    padding:40px;
+}
+
+.card{
+    background:#061d33;
+    padding:30px;
+    border-radius:20px;
+    border:1px solid #dba62b;
+}
+
+.about{
+    display:flex;
+    gap:40px;
+    padding:70px;
+}
+
+.about img{
+    width:350px;
+    border-radius:25px;
+}
+
+.certificates{
+    padding:60px;
+    text-align:center;
+}
+
+.cert{
+    display:inline-block;
+    margin:20px;
+    width:260px;
+    transform:perspective(800px) rotateY(-10deg);
+    transition:.4s;
+}
+
+.cert:hover{
+    transform:scale(1.08) rotateY(0);
+}
+
+.cert img{
+    width:100%;
+    border-radius:20px;
+}
+
+footer{
+    padding:30px;
+    text-align:center;
+    background:#031426;
+}
